@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(233, 234, 222, 1) 100%);
+    overflow: hidden;
+}
+
+.col-md-5 {
+    margin-top: 150px !important;
+    background-color: black;
+    color: white;
+    border-radius: 16px !important;
+}
+input{
+    display: inline !important;
+    border:2px solid white !important;
+    width: 85% !important;
+    margin-bottom: 20px !important;
+}
+button{
+    margin-left: 20px !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+#mytodo{
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    border-radius: 15px;
+}
+
+.disp{
+    display: flex;
+    justify-content:space-evenly;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+    padding:10px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    overflow:auto;
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 1px; */
+}
